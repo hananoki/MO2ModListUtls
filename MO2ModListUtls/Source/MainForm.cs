@@ -73,6 +73,17 @@ namespace MO2ModListUtls {
 			//listView1.VirtualListSize = m_itemsL.Count;
 			//listView1.Columns[ 0 ].Width = listView1.Width - 4;
 
+			if( !m_config.baseModListFilePath .isExistsFile()) {
+				MessageBox.Show( "「ベースにするMODリスト」の読み込みに失敗しました", "Error" );
+				Close();
+				return;
+			}
+			if( !m_config.replaceModListFilePath.isExistsFile() ) {
+				MessageBox.Show( "「書き換えたいMODリスト」の読み込みに失敗しました", "Error" );
+				Close();
+				return;
+			}
+
 			initListView( ref m_itemsL, listView1, m_config.baseModListFilePath, true );
 			initListView( ref m_itemsR, listView2, m_config.replaceModListFilePath );
 

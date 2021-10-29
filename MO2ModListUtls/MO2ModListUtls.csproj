@@ -64,74 +64,74 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\HananokiLib\ArrayUtility.cs">
+    <Compile Include="..\HananokiLib\ArrayUtility.cs">
       <Link>HananokiLib\ArrayUtility.cs</Link>
     </Compile>
-    <Compile Include="..\..\HananokiLib\Debug.cs">
+    <Compile Include="..\HananokiLib\Debug.cs">
       <Link>HananokiLib\Debug.cs</Link>
     </Compile>
-    <Compile Include="..\..\HananokiLib\fs.cs">
+    <Compile Include="..\HananokiLib\fs.cs">
       <Link>HananokiLib\fs.cs</Link>
     </Compile>
-    <Compile Include="..\..\HananokiLib\Helper.cs">
+    <Compile Include="..\HananokiLib\Helper.cs">
       <Link>HananokiLib\Helper.cs</Link>
     </Compile>
-    <Compile Include="..\..\HananokiLib\icon.cs">
+    <Compile Include="..\HananokiLib\icon.cs">
       <Link>HananokiLib\icon.cs</Link>
     </Compile>
-    <Compile Include="..\..\HananokiLib\JsonUtils.cs">
+    <Compile Include="..\HananokiLib\JsonUtils.cs">
       <Link>HananokiLib\JsonUtils.cs</Link>
     </Compile>
-    <Compile Include="..\..\HananokiLib\LitJson\IJsonWrapper.cs">
+    <Compile Include="..\HananokiLib\LitJson\IJsonWrapper.cs">
       <Link>LitJson\IJsonWrapper.cs</Link>
     </Compile>
-    <Compile Include="..\..\HananokiLib\LitJson\JsonData.cs">
+    <Compile Include="..\HananokiLib\LitJson\JsonData.cs">
       <Link>LitJson\JsonData.cs</Link>
     </Compile>
-    <Compile Include="..\..\HananokiLib\LitJson\JsonException.cs">
+    <Compile Include="..\HananokiLib\LitJson\JsonException.cs">
       <Link>LitJson\JsonException.cs</Link>
     </Compile>
-    <Compile Include="..\..\HananokiLib\LitJson\JsonMapper.cs">
+    <Compile Include="..\HananokiLib\LitJson\JsonMapper.cs">
       <Link>LitJson\JsonMapper.cs</Link>
     </Compile>
-    <Compile Include="..\..\HananokiLib\LitJson\JsonMockWrapper.cs">
+    <Compile Include="..\HananokiLib\LitJson\JsonMockWrapper.cs">
       <Link>LitJson\JsonMockWrapper.cs</Link>
     </Compile>
-    <Compile Include="..\..\HananokiLib\LitJson\JsonReader.cs">
+    <Compile Include="..\HananokiLib\LitJson\JsonReader.cs">
       <Link>LitJson\JsonReader.cs</Link>
     </Compile>
-    <Compile Include="..\..\HananokiLib\LitJson\JsonWriter.cs">
+    <Compile Include="..\HananokiLib\LitJson\JsonWriter.cs">
       <Link>LitJson\JsonWriter.cs</Link>
     </Compile>
-    <Compile Include="..\..\HananokiLib\LitJson\Lexer.cs">
+    <Compile Include="..\HananokiLib\LitJson\Lexer.cs">
       <Link>LitJson\Lexer.cs</Link>
     </Compile>
-    <Compile Include="..\..\HananokiLib\LitJson\ParserToken.cs">
+    <Compile Include="..\HananokiLib\LitJson\ParserToken.cs">
       <Link>LitJson\ParserToken.cs</Link>
     </Compile>
-    <Compile Include="..\..\HananokiLib\Log.cs">
+    <Compile Include="..\HananokiLib\Log.cs">
       <Link>HananokiLib\Log.cs</Link>
     </Compile>
-    <Compile Include="..\..\HananokiLib\LogWindow.cs">
+    <Compile Include="..\HananokiLib\LogWindow.cs">
       <Link>HananokiLib\LogWindow.cs</Link>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="..\..\HananokiLib\LogWindow.Designer.cs">
+    <Compile Include="..\HananokiLib\LogWindow.Designer.cs">
       <Link>HananokiLib\LogWindow.Designer.cs</Link>
     </Compile>
-    <Compile Include="..\..\HananokiLib\shell.cs">
+    <Compile Include="..\HananokiLib\shell.cs">
       <Link>HananokiLib\shell.cs</Link>
     </Compile>
-    <Compile Include="..\..\HananokiLib\sound.cs">
+    <Compile Include="..\HananokiLib\sound.cs">
       <Link>HananokiLib\sound.cs</Link>
     </Compile>
-    <Compile Include="..\..\HananokiLib\StringExtensions.cs">
+    <Compile Include="..\HananokiLib\StringExtensions.cs">
       <Link>HananokiLib\StringExtensions.cs</Link>
     </Compile>
-    <Compile Include="..\..\HananokiLib\Win32.cs">
+    <Compile Include="..\HananokiLib\Win32.cs">
       <Link>HananokiLib\Win32.cs</Link>
     </Compile>
-    <Compile Include="..\..\HananokiLib\WindowsFormsExtension.cs">
+    <Compile Include="..\HananokiLib\WindowsFormsExtension.cs">
       <Link>HananokiLib\WindowsFormsExtension.cs</Link>
     </Compile>
     <Compile Include="Source\Config.cs" />
